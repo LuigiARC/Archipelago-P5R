@@ -1,4 +1,4 @@
-**[Client](https://github.com/LuigiARC/Persona5AP.Client/) [Apworld](https://github.com/LuigiARC/Archipelago-P5R/releases/) <u>[Details](https://github.com/LuigiARC/Archipelago-P5R/tree/p5r/docs/en_Persona%205%20Royal.md)</u> [Setup](https://github.com/LuigiARC/Archipelago-P5R/tree/p5r/docs/setup_en.md)**
+**[Client](https://github.com/LuigiARC/Persona5AP.Client/) [Apworld](https://github.com/LuigiARC/Archipelago-P5R/releases/) <u>[Details](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r/docs/en_Persona%205%20Royal.md)</u> [Setup](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r/docs/setup_en.md)**
 
 ## Features and available checks
 

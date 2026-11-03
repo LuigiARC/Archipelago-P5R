@@ -1,4 +1,4 @@
-**[Client](https://github.com/LuigiARC/Persona5AP.Client/) [Apworld](https://github.com/LuigiARC/Archipelago-P5R/releases/) [Details](https://github.com/LuigiARC/Archipelago-P5R/tree/p5r/docs/en_Persona%205%20Royal.md) <u>[Setup](https://github.com/LuigiARC/Archipelago-P5R/tree/p5r/docs/setup_en.md)</u>**
+**[Client](https://github.com/LuigiARC/Persona5AP.Client/) [Apworld](https://github.com/LuigiARC/Archipelago-P5R/releases/) [Details](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r/docs/en_Persona%205%20Royal.md) <u>[Setup](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r/docs/setup_en.md)</u>**
 
 # Persona 5 Royal Archipelago Setup Guide
 
@@ -26,7 +26,7 @@ If you are generating the multiworld:
 4. Restart the launcher after installation so it loads the world.
 
 Use matching APWorld and client releases. The game name in the YAML and the client
-is **Persona 5 Royal**.
+is **Persona 5 Royal (luigiarc)**.
 
 ### Install the Game Client
 
@@ -67,7 +67,7 @@ Launcher. Find the Persona 5 Royal template in `Players/Templates` and copy it i
 
 Set the top-level `name` to your desired slot name, up to 16 characters. This is the
 name you enter in the client's Connection menu; it must match the generated slot.
-Keep the `game` value and game-options section named `Persona 5 Royal`.
+Keep the `game` value and game-options section named `Persona 5 Royal (luigiarc)`.
 
 The defaults use Shido as the goal, 20 shop checks priced from 1,000 to 10,000 yen,
 five chest checks per Mementos Path, and DeathLink enabled with 30% received damage.
