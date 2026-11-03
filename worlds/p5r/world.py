@@ -16,7 +16,7 @@ from .personas import CATALOG as PERSONA_DOCUMENT
 from .items import CATALOG as TV_BUNDLE_DOCUMENT
 
 
-GAME_NAME = "Persona 5 Royal"
+GAME_NAME = "Persona 5 Royal (luigiarc)"
 CHEST_DATA_BYTES = catalog_bytes(CHEST_DOCUMENT)
 CHESTS = CHEST_DOCUMENT["locations"]
 CHEST_CATALOG_VERSION = CHEST_DOCUMENT["catalog_version"]
