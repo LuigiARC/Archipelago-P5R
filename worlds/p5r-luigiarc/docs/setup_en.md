@@ -63,7 +63,7 @@ your world. For an introduction, see the
 After installing `p5r-luigiarc.apworld`, select **Generate Template Options** in Archipelago
 Launcher. Find the Persona 5 Royal template in `Players/Templates` and copy it into
 `Players` before editing it. You can also start from the supplied
-[example YAML](../examples/P5R.yaml).
+[example YAML](../examples/p5r-luigiarc.yaml).
 
 Set the top-level `name` to your desired slot name, up to 16 characters. This is the
 name you enter in the client's Connection menu; it must match the generated slot.
