@@ -1,0 +1,107 @@
+# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. This file sets each option to one concrete value rather than the weighted-random distribution the
+#    game's own auto-generated templates use (e.g. `full: 50 / minimal: 0`) -- a plain value like
+#    `accessibility: full` below is shorthand for "always this value." See
+#    https://archipelago.gg/tutorial/Archipelago/setup/en if you want weighted randomization instead.
+
+# Your name in-game, limited to 16 characters.
+name: Joker
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Persona 5 Royal Template
+
+game: Persona 5 Royal
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+
+Persona 5 Royal:
+  ################
+  # Game Options #
+  ################
+
+  # A system that can move progression earlier, to try and prevent the player from getting stuck
+  # and bored early.
+  #
+  # A lower setting means more getting stuck. A higher setting means less getting stuck.
+  # Minimum value is 0, maximum value is 99.
+  progression_balancing: 50
+
+  # Set rules for reachability of your items/locations.
+  #
+  # full: ensure everything can be reached and acquired.
+  # minimal: ensure what is needed to reach your goal can be acquired.
+  accessibility: full
+
+  # Which Palace clears are required to goal. Multiple are allowed and if multiple are specified, all must be cleared to goal
+  # Clear is sent after the respective boss is defeated.
+  #
+  # Valid palaces: kamoshida, madarame, kaneshiro, futaba, okumura, niijima, shido, maruki (has issues)
+  goal_palaces:
+    - shido
+
+  # Require registering every tracked Persona. This can also be combined with Palace goals.
+  goal_compendium: false
+
+  # Add 232 Persona registration checks.
+  compendium_sanity: false
+
+  # Range 0–500. Shop checks unlock across the eight Palace-access tiers.
+  shop_item_count: 20
+  shop_minimum_price: 1000
+  shop_maximum_price: 10000
+
+  # Number of chest checks in EACH Mementos Path.
+  # Minimum value is 1, maximum value is 20
+  mementos_chests_per_path: 5
+
+  # Whether Palace access/calling-card permissions come from two shared progressive items (on,
+  # default) or from 8 distinct per-Palace items instead (off). Progressive is recommended.
+  progressive_palace_access: true
+
+  # Send a DeathLink when the party is wiped.
+  death_link: true
+
+  # Percentage of each active party member's maximum HP removed by a received DeathLink.
+  # Damage cannot reduce a living member below 1 HP
+  death_link_damage_percent: 30
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+
+  # Forces these items to be in their native world.
+  local_items: []
+
+  # Forces these items to be outside their native world.
+  non_local_items: []
+
+  # Start with the specified amount of these items. Example: {Bomb: 1, Arrow: 3}
+  start_inventory: {}
+
+  # Remove these starting items from the randomized pool and replace their locations with
+  # filler.
+  start_inventory_from_pool:
+    Progressive Palace Access: 1
+    Progressive Mementos Access: 1
+
+  # Start with these item's locations prefilled into the `!hint` command.
+  start_hints: []
+
+  # Start with these locations and their item prefilled into the `!hint` command.
+  start_location_hints: []
+
+  # Prevent these locations from having an important item.
+  exclude_locations: []
+
+  # Prevent these locations from having an unimportant item.
+  priority_locations: []
+
+  # Share part of your item pool with other players.
+  item_links: []
+
+  # Generic items plando.
+  plando_items: []
