@@ -151,7 +151,7 @@ class Persona5RoyalWebWorld(WebWorld):
             "English",
             "setup_en.md",
             "setup/en",
-            ["Luigi"],
+            ["luigiarc"],
         )
     ]
 
