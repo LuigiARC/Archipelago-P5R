@@ -1,4 +1,7 @@
-**[Client](https://github.com/LuigiARC/Persona5AP.Client/) [Apworld](https://github.com/LuigiARC/Archipelago-P5R/releases/) <u>[Details](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r/docs/en_Persona%205%20Royal.md)</u> [Setup](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r/docs/setup_en.md)**
+**[Client](https://github.com/LuigiARC/Persona5AP.Client/) [Apworld](https://github.com/LuigiARC/Archipelago-P5R/releases/) <u>[Details](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r-luigiarc/docs/en_Persona%205%20Royal.md)</u> [Setup](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r-luigiarc/docs/setup_en.md)**
+
+## How this plays
+This is a palaces-only implementation, which means you don't interact with the calendar or are really outside of the palaces / mementos (asides from the introduction - up until you unlock Ann). Previously the way to warp was to click the mementos gate which meant that would need to play until mementos to unlock the warp / shops, but with the F9 menu, you can warp earlier (how much earlier is still something that needs to be tested to find out because of story flags).
 
 ## Features and available checks
 

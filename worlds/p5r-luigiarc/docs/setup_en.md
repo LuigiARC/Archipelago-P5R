@@ -1,4 +1,4 @@
-**[Client](https://github.com/LuigiARC/Persona5AP.Client/) [Apworld](https://github.com/LuigiARC/Archipelago-P5R/releases/) [Details](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r/docs/en_Persona%205%20Royal.md) <u>[Setup](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r/docs/setup_en.md)</u>**
+**[Client](https://github.com/LuigiARC/Persona5AP.Client/) [Apworld](https://github.com/LuigiARC/Archipelago-P5R/releases/) [Details](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r-luigiarc/docs/en_Persona%205%20Royal.md) <u>[Setup](https://github.com/LuigiARC/Archipelago-P5R/blob/main/worlds/p5r-luigiarc/docs/setup_en.md)</u>**
 
 # Persona 5 Royal Archipelago Setup Guide
 
@@ -9,7 +9,7 @@ Persona 5 AP is in alpha. Use a disposable save and keep a backup before playing
 - A supported **Steam PC installation of Persona 5 Royal**, with the English game resources.
 - [Reloaded-II](https://github.com/Reloaded-Project/Reloaded-II/releases), used to launch the modded game.
 - The **Persona 5 AP client**, downloaded as `Persona 5 AP.zip` from the [client releases](https://github.com/LuigiARC/Persona5AP.Client/releases).
-- For generating or locally hosting a world: **Archipelago 0.6.8 or a compatible version**, available from the [Archipelago releases](https://github.com/ArchipelagoMW/Archipelago/releases), and `p5r.apworld` from the [Persona 5 Royal APWorld releases](https://github.com/LuigiARC/Archipelago-P5R/releases).
+- For generating or locally hosting a world: **Archipelago 0.6.8 or a compatible version**, available from the [Archipelago releases](https://github.com/ArchipelagoMW/Archipelago/releases), and `p5r-luigiarc.apworld` from the [Persona 5 Royal APWorld releases](https://github.com/LuigiARC/Archipelago-P5R/releases).
 
 The person generating the multiworld must install the APWorld. Players joining an
 already-generated room use the Reloaded-II client to connect to it.
@@ -21,8 +21,8 @@ already-generated room use the Reloaded-II client to connect to it.
 If you are generating the multiworld:
 
 1. Install Archipelago.
-2. Download `p5r.apworld` from the APWorld releases linked above.
-3. Open Archipelago Launcher, select **Install APWorld**, and choose `p5r.apworld`.
+2. Download `p5r-luigiarc.apworld` from the APWorld releases linked above.
+3. Open Archipelago Launcher, select **Install APWorld**, and choose `p5r-luigiarc.apworld`.
 4. Restart the launcher after installation so it loads the world.
 
 Use matching APWorld and client releases. The game name in the YAML and the client
@@ -60,7 +60,7 @@ your world. For an introduction, see the
 
 ### Where Do I Get an Options File?
 
-After installing `p5r.apworld`, select **Generate Template Options** in Archipelago
+After installing `p5r-luigiarc.apworld`, select **Generate Template Options** in Archipelago
 Launcher. Find the Persona 5 Royal template in `Players/Templates` and copy it into
 `Players` before editing it. You can also start from the supplied
 [example YAML](../examples/P5R.yaml).
@@ -84,7 +84,7 @@ A web generator or validator also needs to support this APWorld to process it.
 ### Generating and Hosting a Game
 
 If another person is hosting, send them your YAML and obtain the room address,
-port and password, if one is set. The organizer needs the matching `p5r.apworld`
+port and password, if one is set. The organizer needs the matching `p5r-luigiarc.apworld`
 installed when generating the multiworld.
 
 To generate and host locally:
@@ -133,3 +133,13 @@ save. Keep the same generated world and use the same slot when resuming.
   The client requires unmodified original files from a supported game version.
 - **A received item has not appeared yet:** return to or reopen the hub so pending
   grants can reconcile. If it still does not apply, check the connection status and Reloaded log.
+
+### Build the APWorld from source
+
+From the Archipelago repository root, run:
+
+```sh
+python Launcher.py "Build APWorlds" -- "Persona 5 Royal (luigiarc)" --skip_open_folder
+```
+
+The output is `build/apworlds/p5r-luigiarc.apworld`.
