@@ -34,16 +34,17 @@ These steps use the Windows Reloaded-II interface. For Linux/Proton, follow
 Reloaded-II's [Linux setup guide](https://reloaded-project.github.io/Reloaded-II/LinuxSetupGuide/) first.
 
 1. Back up the Persona 5 Royal saves you intend to use.
-2. Install Reloaded-II and add the game's `P5R.exe` as an application. See the
+2. Add the save file provided in the release
+3. Install Reloaded-II and add the game's `P5R.exe` as an application. See the
    [Reloaded-II quick start](https://reloaded-project.github.io/Reloaded-II/QuickStart/) if this is your first time using it.
-3. Download `Persona 5 AP.zip` and drag the ZIP onto the Reloaded-II window to install it.
-4. Select Persona 5 Royal in Reloaded-II and enable **Persona 5 AP** and its dependencies:
+4. Download `Persona 5 AP.zip` and drag the ZIP onto the Reloaded-II window to install it.
+5. Select Persona 5 Royal in Reloaded-II and enable **Persona 5 AP** and its dependencies:
    - Persona Essentials (`p5rpc.modloader`)
    - CRI FileSystem V2 Hook (`crifs.v2.hook`)
    - SharedLib Hooks (`reloaded.sharedlib.hooks`)
    - BF File Emulator (`reloaded.universal.fileemulationframework.bf`)
-5. Install and enable any additional dependencies requested by Reloaded-II.
-6. Launch the game through Reloaded-II.
+6. Install and enable any additional dependencies requested by Reloaded-II.
+7. Launch the game through Reloaded-II.
 
 On launch, the client reads the necessary files from your installed game, applies
 its patches and caches the results locally. Original CPK archives are opened
