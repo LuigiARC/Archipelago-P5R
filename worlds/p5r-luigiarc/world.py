@@ -7,13 +7,14 @@ from worlds.AutoWorld import WebWorld, World
 from worlds.generic.Rules import set_rule
 from Options import OptionError
 
-from .options import Persona5RoyalOptions
+from .options import ITEM_CATEGORY_OPTIONS, Persona5RoyalOptions
 from .catalog_data import catalog_bytes
 from .locations import CATALOG as CHEST_DOCUMENT
 from .palaces import CATALOG as PALACE_DOCUMENT
 from .confidant_abilities import CATALOG as CONFIDANT_DOCUMENT
 from .personas import CATALOG as PERSONA_DOCUMENT
 from .items import CATALOG as TV_BUNDLE_DOCUMENT
+from .reward_placement import order_inventory_rewards
 
 
 GAME_NAME = "Persona 5 Royal (luigiarc)"
@@ -37,6 +38,23 @@ TV_BUNDLE_DATA_BYTES = catalog_bytes(TV_BUNDLE_DOCUMENT)
 TV_BUNDLES = TV_BUNDLE_DOCUMENT["bundles"]
 TV_BUNDLE_CATALOG_HASH = hashlib.sha256(TV_BUNDLE_DATA_BYTES).hexdigest()
 TV_BUNDLE_ITEMS = {bundle["name"]: bundle["item_id"] for bundle in TV_BUNDLES}
+RANDOMIZED_BUNDLE_ITEMS = {
+    bundle["name"]: bundle["item_id"] for bundle in TV_BUNDLES if "category" not in bundle
+}
+NATIVE_ITEMS = {
+    item["name"]: item["item_id"] for item in TV_BUNDLE_DOCUMENT["native_items"]
+}
+RANDOMIZED_NATIVE_ITEMS = {
+    item["name"]: item["item_id"] for item in TV_BUNDLE_DOCUMENT["native_items"] if item["randomized"]
+}
+RANDOM_REWARD_ITEMS = {**RANDOMIZED_BUNDLE_ITEMS, **RANDOMIZED_NATIVE_ITEMS}
+INVENTORY_REWARDS = {
+    item["name"]: item for item in (*TV_BUNDLES, *TV_BUNDLE_DOCUMENT["native_items"])
+}
+NATIVE_ITEM_CATEGORIES = {
+    item["contents"][0]["item_id"]: item["category"]
+    for item in TV_BUNDLE_DOCUMENT["native_items"]
+}
 # 0x5052_1001 is reserved for the now unused connectivity token
 TEST_FILLER_NAME = "Test Filler"
 TEST_FILLER_ID = 0x5052_1002
@@ -165,6 +183,8 @@ class Persona5RoyalWorld(World):
     options: Persona5RoyalOptions
 
     def generate_early(self) -> None:
+        if not hasattr(World, "finalize_multiworld"):
+            raise OptionError("Strength-based equipment placement requires Archipelago with finalize_multiworld support. Use the matching Archipelago fork to generate this world.")
         minimum = self.options.shop_minimum_price.value
         maximum = self.options.shop_maximum_price.value
         if minimum > maximum:
@@ -185,6 +205,7 @@ class Persona5RoyalWorld(World):
         **PARTY_RECRUIT_ITEMS,
         **PARTY_LEVEL_ITEMS,
         **TV_BUNDLE_ITEMS,
+        **NATIVE_ITEMS,
         **{
             PALACE_MERGED_ITEM_NAMES[palace["key"]]: palace["merged_access_item_id"]
             for palace in PALACES
@@ -299,15 +320,23 @@ class Persona5RoyalWorld(World):
         )
 
         total_locations = self.total_location_count()
-        filler_count = (
+        reward_count = (
             total_locations - locked_locations - self.palace_item_count()
             - MEMENTOS_PROGRESS_TIERS - len(PARTY_RECRUIT_ITEMS)
             - sum(PARTY_LEVEL_ITEM_COUNTS.values())
         )
-        self.multiworld.itempool.extend(
-            self.create_item(name)
-            for name in self.random.choices(tuple(TV_BUNDLE_ITEMS), k=filler_count)
-        )
+        rewards = self.random.choices(self.reward_item_names(), k=reward_count)
+        # Useful items cannot fill excluded checks. Supply real filler for at
+        # least this world's active exclusions, even with equipment-only settings.
+        excluded_count = sum(location.name in self.options.exclude_locations.value
+                             for location in self.multiworld.get_locations(self.player))
+        missing_filler = max(0, excluded_count - sum(
+            self.create_item(name).classification == ItemClassification.filler for name in rewards))
+        for index in range(len(rewards)):
+            if missing_filler and self.create_item(rewards[index]).classification != ItemClassification.filler:
+                rewards[index] = self.get_filler_item_name()
+                missing_filler -= 1
+        self.multiworld.itempool.extend(self.create_item(name) for name in rewards)
 
     def palace_item_count(self) -> int:
         return len(PALACES) * 2 if self.options.progressive_palace_access.value else len(PALACES)
@@ -330,10 +359,33 @@ class Persona5RoyalWorld(World):
             classification = ItemClassification.progression
         elif name in PARTY_LEVEL_ITEMS:
             classification = ItemClassification.useful
+        elif name in INVENTORY_REWARDS:
+            classification = ItemClassification[INVENTORY_REWARDS[name]["classification"]]
         return Persona5RoyalItem(name, classification, self.item_name_to_id[name], self.player)
 
     def get_filler_item_name(self) -> str:
-        return self.random.choice(tuple(TV_BUNDLE_ITEMS))
+        return self.random.choice(self.filler_item_names())
+
+    def filler_item_names(self) -> tuple[str, ...]:
+        candidates = tuple(name for name in self.reward_item_names()
+                           if self.create_item(name).classification == ItemClassification.filler)
+        return candidates or (TEST_FILLER_NAME,)
+
+    def reward_item_names(self) -> tuple[str, ...]:
+        disabled = {category for category, option in ITEM_CATEGORY_OPTIONS.items()
+                    if not getattr(self.options, option).value}
+        candidates = tuple(
+            item["name"]
+            for item in (*TV_BUNDLES, *TV_BUNDLE_DOCUMENT["native_items"])
+            if item["name"] in RANDOM_REWARD_ITEMS and not any(
+                NATIVE_ITEM_CATEGORIES[content["item_id"]] in disabled
+                for content in item["contents"]
+            )
+        )
+        return candidates or (TEST_FILLER_NAME,)
+
+    def finalize_multiworld(self) -> None:
+        self.equipment_spheres = order_inventory_rewards(self, INVENTORY_REWARDS)
 
     def _palace_access_met(self, state: "CollectionState", palace: Mapping[str, Any]) -> bool:
         if self.options.progressive_palace_access.value:
@@ -434,6 +486,8 @@ class Persona5RoyalWorld(World):
         total_locations = self.total_location_count()
         return {
             "client_version": 12,
+            "randomized_item_categories": [category for category, option in ITEM_CATEGORY_OPTIONS.items()
+                                           if getattr(self.options, option).value],
             "shop_item_count": self.options.shop_item_count.value,
             "shop_location_base_id": SHOP_LOCATION_BASE_ID,
             "shop_prices": dict(self.shop_prices),

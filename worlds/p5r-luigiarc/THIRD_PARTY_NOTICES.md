@@ -11,5 +11,7 @@ license and per-directory exceptions.
 - **j0nny DiGITAL, change-of-heart**: Persona metadata and save-structure
   research helped implement the Compendium catalog. Copyright (c) 2026 j0nny DiGITAL, MIT. 
   https://github.com/j0nnyDiGITAL/change-of-heart
+- **Secre-C, P5R-Shop-Editor**:
+  Royal item-name tables were found from [Secre-C's P5R Shop Editor](https://github.com/Secre-C/P5R-Shop-Editor), checked against local ITEM.TBL category sizes and native inventory functions.
 
 No original game archives, decompiled scripts, art, music, saves or client cache files are included.

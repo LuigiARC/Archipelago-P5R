@@ -73,6 +73,23 @@ Persona 5 Royal (luigiarc):
   # Item & Location Options #
   ###########################
 
+  # 195 items. Example: Rebel Knife.
+  randomize_melee_weapons: true
+  # 106 items. Example: Tkachev.
+  randomize_guns: true
+  # 200 items. Example: Dark Undershirt.
+  randomize_armor: true
+  # 439 items. Example: Hip Glasses.
+  randomize_accessories: true
+  # 551 items. Example: Soma.
+  randomize_consumables: true
+  # 459 items. Example: Agi.
+  randomize_skill_cards: true
+  # 168 items. Example: Gold Coin.
+  randomize_materials: false
+  # 273 items. Example: Shujin Uniform.
+  randomize_outfits: false
+
   # Forces these items to be in their native world.
   local_items: []
 
@@ -80,13 +97,11 @@ Persona 5 Royal (luigiarc):
   non_local_items: []
 
   # Start with the specified amount of these items. Example: {Bomb: 1, Arrow: 3}
-  start_inventory: {}
+  start_inventory: [Perma-Pick]
 
   # Remove these starting items from the randomized pool and replace their locations with
   # filler.
-  start_inventory_from_pool:
-    Progressive Palace Access: 1
-    Progressive Mementos Access: 1
+  start_inventory_from_pool: [Progressive Palace Access, Progressive Mementos Access]
 
   # Start with these item's locations prefilled into the `!hint` command.
   start_hints: []
