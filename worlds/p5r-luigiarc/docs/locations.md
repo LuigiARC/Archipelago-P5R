@@ -512,238 +512,238 @@
 | Mementos - Da'at Chest #18 | 1347552433 | 0x505204B1 | Mementos chest | Da'at; regenerating chest check #18 | mementos_chests_per_path >= 18 | No |
 | Mementos - Da'at Chest #19 | 1347552434 | 0x505204B2 | Mementos chest | Da'at; regenerating chest check #19 | mementos_chests_per_path >= 19 | No |
 | Mementos - Da'at Chest #20 | 1347552435 | 0x505204B3 | Mementos chest | Da'at; regenerating chest check #20 | mementos_chests_per_path >= 20 | No |
-| Compendium - Metatron | 1347553281 | 0x50520801 | Compendium | Persona ID 1 | compendium_sanity or goal_compendium | No |
-| Compendium - Beelzebub | 1347553282 | 0x50520802 | Compendium | Persona ID 2 | compendium_sanity or goal_compendium | No |
-| Compendium - Cu Chulainn | 1347553283 | 0x50520803 | Compendium | Persona ID 3 | compendium_sanity or goal_compendium | No |
-| Compendium - Jack-o'-Lantern | 1347553284 | 0x50520804 | Compendium | Persona ID 4 | compendium_sanity or goal_compendium | No |
-| Compendium - Jack Frost | 1347553285 | 0x50520805 | Compendium | Persona ID 5 | compendium_sanity or goal_compendium | No |
-| Compendium - Pixie | 1347553286 | 0x50520806 | Compendium | Persona ID 6 | compendium_sanity or goal_compendium | No |
-| Compendium - Cerberus | 1347553287 | 0x50520807 | Compendium | Persona ID 7 | compendium_sanity or goal_compendium | No |
-| Compendium - Lilim | 1347553288 | 0x50520808 | Compendium | Persona ID 8 | compendium_sanity or goal_compendium | No |
-| Compendium - Eligor | 1347553289 | 0x50520809 | Compendium | Persona ID 9 | compendium_sanity or goal_compendium | No |
-| Compendium - Odin | 1347553290 | 0x5052080A | Compendium | Persona ID 10 | compendium_sanity or goal_compendium | No |
-| Compendium - Hua Po | 1347553291 | 0x5052080B | Compendium | Persona ID 11 | compendium_sanity or goal_compendium | No |
-| Compendium - Decarabia | 1347553292 | 0x5052080C | Compendium | Persona ID 12 | compendium_sanity or goal_compendium | No |
-| Compendium - Mara | 1347553293 | 0x5052080D | Compendium | Persona ID 13 | compendium_sanity or goal_compendium | No |
-| Compendium - Ose | 1347553294 | 0x5052080E | Compendium | Persona ID 14 | compendium_sanity or goal_compendium | No |
-| Compendium - Thor | 1347553295 | 0x5052080F | Compendium | Persona ID 15 | compendium_sanity or goal_compendium | No |
-| Compendium - Unicorn | 1347553296 | 0x50520810 | Compendium | Persona ID 16 | compendium_sanity or goal_compendium | No |
-| Compendium - Uriel | 1347553297 | 0x50520811 | Compendium | Persona ID 17 | compendium_sanity or goal_compendium | No |
-| Compendium - Sarasvati | 1347553298 | 0x50520812 | Compendium | Persona ID 18 | compendium_sanity or goal_compendium | No |
-| Compendium - Valkyrie | 1347553299 | 0x50520813 | Compendium | Persona ID 19 | compendium_sanity or goal_compendium | No |
-| Compendium - Yaksini | 1347553300 | 0x50520814 | Compendium | Persona ID 20 | compendium_sanity or goal_compendium | No |
-| Compendium - Ganesha | 1347553301 | 0x50520815 | Compendium | Persona ID 21 | compendium_sanity or goal_compendium | No |
-| Compendium - Anubis | 1347553302 | 0x50520816 | Compendium | Persona ID 22 | compendium_sanity or goal_compendium | No |
-| Compendium - Mot | 1347553303 | 0x50520817 | Compendium | Persona ID 23 | compendium_sanity or goal_compendium | No |
-| Compendium - Raphael | 1347553304 | 0x50520818 | Compendium | Persona ID 24 | compendium_sanity or goal_compendium | No |
-| Compendium - Scathach | 1347553305 | 0x50520819 | Compendium | Persona ID 25 | compendium_sanity or goal_compendium | No |
-| Compendium - High Pixie | 1347553306 | 0x5052081A | Compendium | Persona ID 26 | compendium_sanity or goal_compendium | No |
-| Compendium - Barong | 1347553307 | 0x5052081B | Compendium | Persona ID 27 | compendium_sanity or goal_compendium | No |
-| Compendium - Girimehkala | 1347553308 | 0x5052081C | Compendium | Persona ID 28 | compendium_sanity or goal_compendium | No |
-| Compendium - King Frost | 1347553309 | 0x5052081D | Compendium | Persona ID 29 | compendium_sanity or goal_compendium | No |
-| Compendium - Narcissus | 1347553310 | 0x5052081E | Compendium | Persona ID 30 | compendium_sanity or goal_compendium | No |
-| Compendium - Isis | 1347553311 | 0x5052081F | Compendium | Persona ID 31 | compendium_sanity or goal_compendium | No |
-| Compendium - Lamia | 1347553312 | 0x50520820 | Compendium | Persona ID 32 | compendium_sanity or goal_compendium | No |
-| Compendium - Legion | 1347553313 | 0x50520821 | Compendium | Persona ID 33 | compendium_sanity or goal_compendium | No |
-| Compendium - Rakshasa | 1347553314 | 0x50520822 | Compendium | Persona ID 34 | compendium_sanity or goal_compendium | No |
-| Compendium - Mokoi | 1347553315 | 0x50520823 | Compendium | Persona ID 35 | compendium_sanity or goal_compendium | No |
-| Compendium - Forneus | 1347553316 | 0x50520824 | Compendium | Persona ID 36 | compendium_sanity or goal_compendium | No |
-| Compendium - Setanta | 1347553317 | 0x50520825 | Compendium | Persona ID 37 | compendium_sanity or goal_compendium | No |
-| Compendium - Titania | 1347553318 | 0x50520826 | Compendium | Persona ID 38 | compendium_sanity or goal_compendium | No |
-| Compendium - Incubus | 1347553319 | 0x50520827 | Compendium | Persona ID 39 | compendium_sanity or goal_compendium | No |
-| Compendium - Oni | 1347553320 | 0x50520828 | Compendium | Persona ID 40 | compendium_sanity or goal_compendium | No |
-| Compendium - Lilith | 1347553321 | 0x50520829 | Compendium | Persona ID 41 | compendium_sanity or goal_compendium | No |
-| Compendium - Rangda | 1347553322 | 0x5052082A | Compendium | Persona ID 42 | compendium_sanity or goal_compendium | No |
-| Compendium - Makami | 1347553323 | 0x5052082B | Compendium | Persona ID 43 | compendium_sanity or goal_compendium | No |
-| Compendium - Parvati | 1347553324 | 0x5052082C | Compendium | Persona ID 44 | compendium_sanity or goal_compendium | No |
-| Compendium - Gabriel | 1347553325 | 0x5052082D | Compendium | Persona ID 45 | compendium_sanity or goal_compendium | No |
-| Compendium - Zaou-Gongen | 1347553326 | 0x5052082E | Compendium | Persona ID 46 | compendium_sanity or goal_compendium | No |
-| Compendium - Alice | 1347553327 | 0x5052082F | Compendium | Persona ID 47 | compendium_sanity or goal_compendium | No |
-| Compendium - Kali | 1347553328 | 0x50520830 | Compendium | Persona ID 48 | compendium_sanity or goal_compendium | No |
-| Compendium - Kurama Tengu | 1347553329 | 0x50520831 | Compendium | Persona ID 49 | compendium_sanity or goal_compendium | No |
-| Compendium - Oberon | 1347553330 | 0x50520832 | Compendium | Persona ID 50 | compendium_sanity or goal_compendium | No |
-| Compendium - Shiki-Ouji | 1347553331 | 0x50520833 | Compendium | Persona ID 51 | compendium_sanity or goal_compendium | No |
-| Compendium - Yamata-no-Orochi | 1347553332 | 0x50520834 | Compendium | Persona ID 52 | compendium_sanity or goal_compendium | No |
-| Compendium - Orobas | 1347553333 | 0x50520835 | Compendium | Persona ID 53 | compendium_sanity or goal_compendium | No |
-| Compendium - Hanuman | 1347553334 | 0x50520836 | Compendium | Persona ID 54 | compendium_sanity or goal_compendium | No |
-| Compendium - Archangel | 1347553335 | 0x50520837 | Compendium | Persona ID 55 | compendium_sanity or goal_compendium | No |
-| Compendium - Obariyon | 1347553336 | 0x50520838 | Compendium | Persona ID 56 | compendium_sanity or goal_compendium | No |
-| Compendium - Queen Mab | 1347553337 | 0x50520839 | Compendium | Persona ID 57 | compendium_sanity or goal_compendium | No |
-| Compendium - Sandalphon | 1347553338 | 0x5052083A | Compendium | Persona ID 58 | compendium_sanity or goal_compendium | No |
-| Compendium - Abaddon | 1347553339 | 0x5052083B | Compendium | Persona ID 59 | compendium_sanity or goal_compendium | No |
-| Compendium - Shiisaa | 1347553340 | 0x5052083C | Compendium | Persona ID 60 | compendium_sanity or goal_compendium | No |
-| Compendium - Sandman | 1347553341 | 0x5052083D | Compendium | Persona ID 61 | compendium_sanity or goal_compendium | No |
-| Compendium - Belial | 1347553342 | 0x5052083E | Compendium | Persona ID 62 | compendium_sanity or goal_compendium | No |
-| Compendium - Leanan Sidhe | 1347553343 | 0x5052083F | Compendium | Persona ID 63 | compendium_sanity or goal_compendium | No |
-| Compendium - Cybele | 1347553344 | 0x50520840 | Compendium | Persona ID 64 | compendium_sanity or goal_compendium | No |
-| Compendium - Chernobog | 1347553345 | 0x50520841 | Compendium | Persona ID 65 | compendium_sanity or goal_compendium | No |
-| Compendium - Flauros | 1347553346 | 0x50520842 | Compendium | Persona ID 66 | compendium_sanity or goal_compendium | No |
-| Compendium - Ippon-Datara | 1347553347 | 0x50520843 | Compendium | Persona ID 67 | compendium_sanity or goal_compendium | No |
-| Compendium - Orthrus | 1347553348 | 0x50520844 | Compendium | Persona ID 68 | compendium_sanity or goal_compendium | No |
-| Compendium - Succubus | 1347553349 | 0x50520845 | Compendium | Persona ID 69 | compendium_sanity or goal_compendium | No |
-| Compendium - Mothman | 1347553350 | 0x50520846 | Compendium | Persona ID 70 | compendium_sanity or goal_compendium | No |
-| Compendium - Dominion | 1347553352 | 0x50520848 | Compendium | Persona ID 72 | compendium_sanity or goal_compendium | No |
-| Compendium - Nekomata | 1347553353 | 0x50520849 | Compendium | Persona ID 73 | compendium_sanity or goal_compendium | No |
-| Compendium - Black Frost | 1347553354 | 0x5052084A | Compendium | Persona ID 74 | compendium_sanity or goal_compendium | No |
-| Compendium - Arahabaki | 1347553355 | 0x5052084B | Compendium | Persona ID 75 | compendium_sanity or goal_compendium | No |
-| Compendium - Angel | 1347553356 | 0x5052084C | Compendium | Persona ID 76 | compendium_sanity or goal_compendium | No |
-| Compendium - Skadi | 1347553357 | 0x5052084D | Compendium | Persona ID 77 | compendium_sanity or goal_compendium | No |
-| Compendium - Kikuri-Hime | 1347553358 | 0x5052084E | Compendium | Persona ID 78 | compendium_sanity or goal_compendium | No |
-| Compendium - Chi You | 1347553359 | 0x5052084F | Compendium | Persona ID 79 | compendium_sanity or goal_compendium | No |
-| Compendium - Power | 1347553360 | 0x50520850 | Compendium | Persona ID 80 | compendium_sanity or goal_compendium | No |
-| Compendium - Inugami | 1347553361 | 0x50520851 | Compendium | Persona ID 81 | compendium_sanity or goal_compendium | No |
-| Compendium - Nebiros | 1347553362 | 0x50520852 | Compendium | Persona ID 82 | compendium_sanity or goal_compendium | No |
-| Compendium - Slime | 1347553364 | 0x50520854 | Compendium | Persona ID 84 | compendium_sanity or goal_compendium | No |
-| Compendium - Anzu | 1347553365 | 0x50520855 | Compendium | Persona ID 85 | compendium_sanity or goal_compendium | No |
-| Compendium - Yatagarasu | 1347553366 | 0x50520856 | Compendium | Persona ID 86 | compendium_sanity or goal_compendium | No |
-| Compendium - Yoshitsune | 1347553367 | 0x50520857 | Compendium | Persona ID 87 | compendium_sanity or goal_compendium | No |
-| Compendium - Take-Minakata | 1347553368 | 0x50520858 | Compendium | Persona ID 88 | compendium_sanity or goal_compendium | No |
-| Compendium - Ame-no-Uzume | 1347553369 | 0x50520859 | Compendium | Persona ID 89 | compendium_sanity or goal_compendium | No |
-| Compendium - Kushinada | 1347553370 | 0x5052085A | Compendium | Persona ID 90 | compendium_sanity or goal_compendium | No |
-| Compendium - Kumbhanda | 1347553371 | 0x5052085B | Compendium | Persona ID 91 | compendium_sanity or goal_compendium | No |
-| Compendium - Ongyo-Ki | 1347553372 | 0x5052085C | Compendium | Persona ID 92 | compendium_sanity or goal_compendium | No |
-| Compendium - Kin-Ki | 1347553373 | 0x5052085D | Compendium | Persona ID 93 | compendium_sanity or goal_compendium | No |
-| Compendium - Sui-Ki | 1347553374 | 0x5052085E | Compendium | Persona ID 94 | compendium_sanity or goal_compendium | No |
-| Compendium - Fuu-Ki | 1347553375 | 0x5052085F | Compendium | Persona ID 95 | compendium_sanity or goal_compendium | No |
-| Compendium - Jatayu | 1347553376 | 0x50520860 | Compendium | Persona ID 96 | compendium_sanity or goal_compendium | No |
-| Compendium - Kaiwan | 1347553377 | 0x50520861 | Compendium | Persona ID 97 | compendium_sanity or goal_compendium | No |
-| Compendium - Kelpie | 1347553378 | 0x50520862 | Compendium | Persona ID 98 | compendium_sanity or goal_compendium | No |
-| Compendium - Thoth | 1347553379 | 0x50520863 | Compendium | Persona ID 99 | compendium_sanity or goal_compendium | No |
-| Compendium - Dionysus | 1347553380 | 0x50520864 | Compendium | Persona ID 100 | compendium_sanity or goal_compendium | No |
-| Compendium - Apsaras | 1347553381 | 0x50520865 | Compendium | Persona ID 101 | compendium_sanity or goal_compendium | No |
-| Compendium - Andras | 1347553382 | 0x50520866 | Compendium | Persona ID 102 | compendium_sanity or goal_compendium | No |
-| Compendium - Koropokguru | 1347553384 | 0x50520868 | Compendium | Persona ID 104 | compendium_sanity or goal_compendium | No |
-| Compendium - Koppa Tengu | 1347553385 | 0x50520869 | Compendium | Persona ID 105 | compendium_sanity or goal_compendium | No |
-| Compendium - Regent | 1347553386 | 0x5052086A | Compendium | Persona ID 106 | compendium_sanity or goal_compendium | No |
-| Compendium - Queen's Necklace | 1347553387 | 0x5052086B | Compendium | Persona ID 107 | compendium_sanity or goal_compendium | No |
-| Compendium - Stone of Scone | 1347553388 | 0x5052086C | Compendium | Persona ID 108 | compendium_sanity or goal_compendium | No |
-| Compendium - Koh-i-Noor | 1347553389 | 0x5052086D | Compendium | Persona ID 109 | compendium_sanity or goal_compendium | No |
-| Compendium - Orlov | 1347553390 | 0x5052086E | Compendium | Persona ID 110 | compendium_sanity or goal_compendium | No |
-| Compendium - Emperor's Amulet | 1347553391 | 0x5052086F | Compendium | Persona ID 111 | compendium_sanity or goal_compendium | No |
-| Compendium - Hope Diamond | 1347553392 | 0x50520870 | Compendium | Persona ID 112 | compendium_sanity or goal_compendium | No |
-| Compendium - Crystal Skull | 1347553393 | 0x50520871 | Compendium | Persona ID 113 | compendium_sanity or goal_compendium | No |
-| Compendium - Orichalcum | 1347553394 | 0x50520872 | Compendium | Persona ID 114 | compendium_sanity or goal_compendium | No |
-| Compendium - Mandrake | 1347553401 | 0x50520879 | Compendium | Persona ID 121 | compendium_sanity or goal_compendium | No |
-| Compendium - Baal | 1347553402 | 0x5052087A | Compendium | Persona ID 122 | compendium_sanity or goal_compendium | No |
-| Compendium - Dakini | 1347553403 | 0x5052087B | Compendium | Persona ID 123 | compendium_sanity or goal_compendium | No |
-| Compendium - Silky | 1347553404 | 0x5052087C | Compendium | Persona ID 124 | compendium_sanity or goal_compendium | No |
-| Compendium - Bugs | 1347553405 | 0x5052087D | Compendium | Persona ID 125 | compendium_sanity or goal_compendium | No |
-| Compendium - Black Ooze | 1347553406 | 0x5052087E | Compendium | Persona ID 126 | compendium_sanity or goal_compendium | No |
-| Compendium - Bicorn | 1347553407 | 0x5052087F | Compendium | Persona ID 127 | compendium_sanity or goal_compendium | No |
-| Compendium - Mithras | 1347553408 | 0x50520880 | Compendium | Persona ID 128 | compendium_sanity or goal_compendium | No |
-| Compendium - Sudama | 1347553409 | 0x50520881 | Compendium | Persona ID 129 | compendium_sanity or goal_compendium | No |
-| Compendium - Kodama | 1347553410 | 0x50520882 | Compendium | Persona ID 130 | compendium_sanity or goal_compendium | No |
-| Compendium - Agathion | 1347553411 | 0x50520883 | Compendium | Persona ID 131 | compendium_sanity or goal_compendium | No |
-| Compendium - Onmoraki | 1347553412 | 0x50520884 | Compendium | Persona ID 132 | compendium_sanity or goal_compendium | No |
-| Compendium - Nue | 1347553413 | 0x50520885 | Compendium | Persona ID 133 | compendium_sanity or goal_compendium | No |
-| Compendium - Pisaca | 1347553414 | 0x50520886 | Compendium | Persona ID 134 | compendium_sanity or goal_compendium | No |
-| Compendium - Melchizedek | 1347553415 | 0x50520887 | Compendium | Persona ID 135 | compendium_sanity or goal_compendium | No |
-| Compendium - Baphomet | 1347553416 | 0x50520888 | Compendium | Persona ID 136 | compendium_sanity or goal_compendium | No |
-| Compendium - Raja Naga | 1347553417 | 0x50520889 | Compendium | Persona ID 137 | compendium_sanity or goal_compendium | No |
-| Compendium - Naga | 1347553418 | 0x5052088A | Compendium | Persona ID 138 | compendium_sanity or goal_compendium | No |
-| Compendium - Garuda | 1347553419 | 0x5052088B | Compendium | Persona ID 139 | compendium_sanity or goal_compendium | No |
-| Compendium - Moloch | 1347553420 | 0x5052088C | Compendium | Persona ID 140 | compendium_sanity or goal_compendium | No |
-| Compendium - Norn | 1347553421 | 0x5052088D | Compendium | Persona ID 141 | compendium_sanity or goal_compendium | No |
-| Compendium - Belphegor | 1347553422 | 0x5052088E | Compendium | Persona ID 142 | compendium_sanity or goal_compendium | No |
-| Compendium - Berith | 1347553423 | 0x5052088F | Compendium | Persona ID 143 | compendium_sanity or goal_compendium | No |
-| Compendium - Choronzon | 1347553424 | 0x50520890 | Compendium | Persona ID 144 | compendium_sanity or goal_compendium | No |
-| Compendium - Nigi Mitama | 1347553431 | 0x50520897 | Compendium | Persona ID 151 | compendium_sanity or goal_compendium | No |
-| Compendium - Kushi Mitama | 1347553432 | 0x50520898 | Compendium | Persona ID 152 | compendium_sanity or goal_compendium | No |
-| Compendium - Ara Mitama | 1347553433 | 0x50520899 | Compendium | Persona ID 153 | compendium_sanity or goal_compendium | No |
-| Compendium - Saki Mitama | 1347553434 | 0x5052089A | Compendium | Persona ID 154 | compendium_sanity or goal_compendium | No |
-| Compendium - Shiva | 1347553436 | 0x5052089C | Compendium | Persona ID 156 | compendium_sanity or goal_compendium | No |
-| Compendium - Michael | 1347553437 | 0x5052089D | Compendium | Persona ID 157 | compendium_sanity or goal_compendium | No |
-| Compendium - Asura | 1347553438 | 0x5052089E | Compendium | Persona ID 158 | compendium_sanity or goal_compendium | No |
-| Compendium - Mada | 1347553439 | 0x5052089F | Compendium | Persona ID 159 | compendium_sanity or goal_compendium | No |
-| Compendium - Mother Harlot | 1347553440 | 0x505208A0 | Compendium | Persona ID 160 | compendium_sanity or goal_compendium | No |
-| Compendium - Clotho | 1347553441 | 0x505208A1 | Compendium | Persona ID 161 | compendium_sanity or goal_compendium | No |
-| Compendium - Lachesis | 1347553442 | 0x505208A2 | Compendium | Persona ID 162 | compendium_sanity or goal_compendium | No |
-| Compendium - Atropos | 1347553443 | 0x505208A3 | Compendium | Persona ID 163 | compendium_sanity or goal_compendium | No |
-| Compendium - Ardha | 1347553444 | 0x505208A4 | Compendium | Persona ID 164 | compendium_sanity or goal_compendium | No |
-| Compendium - Vishnu | 1347553446 | 0x505208A6 | Compendium | Persona ID 166 | compendium_sanity or goal_compendium | No |
-| Compendium - Hariti | 1347553447 | 0x505208A7 | Compendium | Persona ID 167 | compendium_sanity or goal_compendium | No |
-| Compendium - Yurlungur | 1347553448 | 0x505208A8 | Compendium | Persona ID 168 | compendium_sanity or goal_compendium | No |
-| Compendium - Hecatoncheires | 1347553449 | 0x505208A9 | Compendium | Persona ID 169 | compendium_sanity or goal_compendium | No |
-| Compendium - Satanael | 1347553450 | 0x505208AA | Compendium | Persona ID 170 | compendium_sanity or goal_compendium | No |
-| Compendium - Orpheus | 1347553461 | 0x505208B5 | Compendium | Persona ID 181 | compendium_sanity or goal_compendium | No |
-| Compendium - Thanatos | 1347553462 | 0x505208B6 | Compendium | Persona ID 182 | compendium_sanity or goal_compendium | No |
-| Compendium - Izanagi | 1347553463 | 0x505208B7 | Compendium | Persona ID 183 | compendium_sanity or goal_compendium | No |
-| Compendium - Magatsu-Izanagi | 1347553464 | 0x505208B8 | Compendium | Persona ID 184 | compendium_sanity or goal_compendium | No |
-| Compendium - Kaguya | 1347553465 | 0x505208B9 | Compendium | Persona ID 185 | compendium_sanity or goal_compendium | No |
-| Compendium - Ariadne | 1347553466 | 0x505208BA | Compendium | Persona ID 186 | compendium_sanity or goal_compendium | No |
-| Compendium - Asterius | 1347553467 | 0x505208BB | Compendium | Persona ID 187 | compendium_sanity or goal_compendium | No |
-| Compendium - Tsukiyomi | 1347553468 | 0x505208BC | Compendium | Persona ID 188 | compendium_sanity or goal_compendium | No |
-| Compendium - Messiah | 1347553469 | 0x505208BD | Compendium | Persona ID 189 | compendium_sanity or goal_compendium | No |
-| Compendium - Messiah Picaro | 1347553470 | 0x505208BE | Compendium | Persona ID 190 | compendium_sanity or goal_compendium | No |
-| Compendium - Orpheus Picaro | 1347553471 | 0x505208BF | Compendium | Persona ID 191 | compendium_sanity or goal_compendium | No |
-| Compendium - Thanatos Picaro | 1347553472 | 0x505208C0 | Compendium | Persona ID 192 | compendium_sanity or goal_compendium | No |
-| Compendium - Izanagi Picaro | 1347553473 | 0x505208C1 | Compendium | Persona ID 193 | compendium_sanity or goal_compendium | No |
-| Compendium - M. Izanagi Picaro | 1347553474 | 0x505208C2 | Compendium | Persona ID 194 | compendium_sanity or goal_compendium | No |
-| Compendium - Kaguya Picaro | 1347553475 | 0x505208C3 | Compendium | Persona ID 195 | compendium_sanity or goal_compendium | No |
-| Compendium - Ariadne Picaro | 1347553476 | 0x505208C4 | Compendium | Persona ID 196 | compendium_sanity or goal_compendium | No |
-| Compendium - Asterius Picaro | 1347553477 | 0x505208C5 | Compendium | Persona ID 197 | compendium_sanity or goal_compendium | No |
-| Compendium - Tsukiyomi Picaro | 1347553478 | 0x505208C6 | Compendium | Persona ID 198 | compendium_sanity or goal_compendium | No |
-| Compendium - Arsene | 1347553481 | 0x505208C9 | Compendium | Persona ID 201 | compendium_sanity or goal_compendium | No |
-| Compendium - Satan | 1347553532 | 0x505208FC | Compendium | Persona ID 252 | compendium_sanity or goal_compendium | No |
-| Compendium - Lucifer | 1347553533 | 0x505208FD | Compendium | Persona ID 253 | compendium_sanity or goal_compendium | No |
-| Compendium - Kohryu | 1347553534 | 0x505208FE | Compendium | Persona ID 254 | compendium_sanity or goal_compendium | No |
-| Compendium - Okuninushi | 1347553535 | 0x505208FF | Compendium | Persona ID 255 | compendium_sanity or goal_compendium | No |
-| Compendium - Futsunushi | 1347553539 | 0x50520903 | Compendium | Persona ID 259 | compendium_sanity or goal_compendium | No |
-| Compendium - Seth | 1347553541 | 0x50520905 | Compendium | Persona ID 261 | compendium_sanity or goal_compendium | No |
-| Compendium - Ishtar | 1347553542 | 0x50520906 | Compendium | Persona ID 262 | compendium_sanity or goal_compendium | No |
-| Compendium - Lakshmi | 1347553546 | 0x5052090A | Compendium | Persona ID 266 | compendium_sanity or goal_compendium | No |
-| Compendium - Fortuna | 1347553552 | 0x50520910 | Compendium | Persona ID 272 | compendium_sanity or goal_compendium | No |
-| Compendium - Suzaku | 1347553553 | 0x50520911 | Compendium | Persona ID 273 | compendium_sanity or goal_compendium | No |
-| Compendium - Seiryu | 1347553554 | 0x50520912 | Compendium | Persona ID 274 | compendium_sanity or goal_compendium | No |
-| Compendium - Genbu | 1347553555 | 0x50520913 | Compendium | Persona ID 275 | compendium_sanity or goal_compendium | No |
-| Compendium - Byakko | 1347553556 | 0x50520914 | Compendium | Persona ID 276 | compendium_sanity or goal_compendium | No |
-| Compendium - Bishamonten | 1347553557 | 0x50520915 | Compendium | Persona ID 277 | compendium_sanity or goal_compendium | No |
-| Compendium - Koumokuten | 1347553558 | 0x50520916 | Compendium | Persona ID 278 | compendium_sanity or goal_compendium | No |
-| Compendium - Jikokuten | 1347553559 | 0x50520917 | Compendium | Persona ID 279 | compendium_sanity or goal_compendium | No |
-| Compendium - Zouchouten | 1347553560 | 0x50520918 | Compendium | Persona ID 280 | compendium_sanity or goal_compendium | No |
-| Compendium - Hell Biker | 1347553561 | 0x50520919 | Compendium | Persona ID 281 | compendium_sanity or goal_compendium | No |
-| Compendium - Daisoujou | 1347553562 | 0x5052091A | Compendium | Persona ID 282 | compendium_sanity or goal_compendium | No |
-| Compendium - Trumpeter | 1347553563 | 0x5052091B | Compendium | Persona ID 283 | compendium_sanity or goal_compendium | No |
-| Compendium - White Rider | 1347553564 | 0x5052091C | Compendium | Persona ID 284 | compendium_sanity or goal_compendium | No |
-| Compendium - Matador | 1347553565 | 0x5052091D | Compendium | Persona ID 285 | compendium_sanity or goal_compendium | No |
-| Compendium - Pale Rider | 1347553566 | 0x5052091E | Compendium | Persona ID 286 | compendium_sanity or goal_compendium | No |
-| Compendium - Horus | 1347553567 | 0x5052091F | Compendium | Persona ID 287 | compendium_sanity or goal_compendium | No |
-| Compendium - Attis | 1347553569 | 0x50520921 | Compendium | Persona ID 289 | compendium_sanity or goal_compendium | No |
-| Compendium - Sraosha | 1347553572 | 0x50520924 | Compendium | Persona ID 292 | compendium_sanity or goal_compendium | No |
-| Compendium - Mitra | 1347553575 | 0x50520927 | Compendium | Persona ID 295 | compendium_sanity or goal_compendium | No |
-| Compendium - Phoenix | 1347553576 | 0x50520928 | Compendium | Persona ID 296 | compendium_sanity or goal_compendium | No |
-| Compendium - Principality | 1347553577 | 0x50520929 | Compendium | Persona ID 297 | compendium_sanity or goal_compendium | No |
-| Compendium - Neko Shogun | 1347553578 | 0x5052092A | Compendium | Persona ID 298 | compendium_sanity or goal_compendium | No |
-| Compendium - Vasuki | 1347553579 | 0x5052092B | Compendium | Persona ID 299 | compendium_sanity or goal_compendium | No |
-| Compendium - Ananta | 1347553580 | 0x5052092C | Compendium | Persona ID 300 | compendium_sanity or goal_compendium | No |
-| Compendium - Quetzalcoatl | 1347553583 | 0x5052092F | Compendium | Persona ID 303 | compendium_sanity or goal_compendium | No |
-| Compendium - Red Rider | 1347553584 | 0x50520930 | Compendium | Persona ID 304 | compendium_sanity or goal_compendium | No |
-| Compendium - Black Rider | 1347553585 | 0x50520931 | Compendium | Persona ID 305 | compendium_sanity or goal_compendium | No |
-| Compendium - Pazuzu | 1347553588 | 0x50520934 | Compendium | Persona ID 308 | compendium_sanity or goal_compendium | No |
-| Compendium - Maria | 1347553610 | 0x5052094A | Compendium | Persona ID 330 | compendium_sanity or goal_compendium | No |
-| Compendium - Vohu Manah | 1347553611 | 0x5052094B | Compendium | Persona ID 331 | compendium_sanity or goal_compendium | No |
-| Compendium - Mishaguji | 1347553613 | 0x5052094D | Compendium | Persona ID 333 | compendium_sanity or goal_compendium | No |
-| Compendium - Izanagi no Okami | 1347553640 | 0x50520968 | Compendium | Persona ID 360 | compendium_sanity or goal_compendium | No |
-| Compendium - Athena | 1347553642 | 0x5052096A | Compendium | Persona ID 362 | compendium_sanity or goal_compendium | No |
-| Compendium - Raoul | 1347553643 | 0x5052096B | Compendium | Persona ID 363 | compendium_sanity or goal_compendium | No |
-| Compendium - Orpheus (F) | 1347553645 | 0x5052096D | Compendium | Persona ID 365 | compendium_sanity or goal_compendium | No |
-| Compendium - Izanagi no Okami Picaro | 1347553646 | 0x5052096E | Compendium | Persona ID 366 | compendium_sanity or goal_compendium | No |
-| Compendium - Athena Picaro | 1347553648 | 0x50520970 | Compendium | Persona ID 368 | compendium_sanity or goal_compendium | No |
-| Compendium - Orpheus (F) Picaro | 1347553651 | 0x50520973 | Compendium | Persona ID 371 | compendium_sanity or goal_compendium | No |
-| Compendium - Macabre | 1347553704 | 0x505209A8 | Compendium | Persona ID 424 | compendium_sanity or goal_compendium | No |
-| Compendium - Alilat | 1347553705 | 0x505209A9 | Compendium | Persona ID 425 | compendium_sanity or goal_compendium | No |
-| Compendium - Thunderbird | 1347553706 | 0x505209AA | Compendium | Persona ID 426 | compendium_sanity or goal_compendium | No |
-| Compendium - Fafnir | 1347553707 | 0x505209AB | Compendium | Persona ID 427 | compendium_sanity or goal_compendium | No |
-| Compendium - Byakhee | 1347553708 | 0x505209AC | Compendium | Persona ID 428 | compendium_sanity or goal_compendium | No |
-| Compendium - Hastur | 1347553709 | 0x505209AD | Compendium | Persona ID 429 | compendium_sanity or goal_compendium | No |
-| Compendium - Tam Lin | 1347553710 | 0x505209AE | Compendium | Persona ID 430 | compendium_sanity or goal_compendium | No |
-| Compendium - Throne | 1347553711 | 0x505209AF | Compendium | Persona ID 431 | compendium_sanity or goal_compendium | No |
-| Compendium - Surt | 1347553712 | 0x505209B0 | Compendium | Persona ID 432 | compendium_sanity or goal_compendium | No |
-| Compendium - Loa | 1347553713 | 0x505209B1 | Compendium | Persona ID 433 | compendium_sanity or goal_compendium | No |
-| Compendium - Chimera | 1347553714 | 0x505209B2 | Compendium | Persona ID 434 | compendium_sanity or goal_compendium | No |
-| Compendium - Atavaka | 1347553715 | 0x505209B3 | Compendium | Persona ID 435 | compendium_sanity or goal_compendium | No |
-| Compendium - Caith Sith | 1347553716 | 0x505209B4 | Compendium | Persona ID 436 | compendium_sanity or goal_compendium | No |
-| Compendium - Siegfried | 1347553717 | 0x505209B5 | Compendium | Persona ID 437 | compendium_sanity or goal_compendium | No |
+| Compendium - Metatron | 1347553281 | 0x50520801 | Compendium | Persona ID 1; base level 89 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Beelzebub | 1347553282 | 0x50520802 | Compendium | Persona ID 2; base level 87 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Cu Chulainn | 1347553283 | 0x50520803 | Compendium | Persona ID 3; base level 76 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Jack-o'-Lantern | 1347553284 | 0x50520804 | Compendium | Persona ID 4; base level 2 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Jack Frost | 1347553285 | 0x50520805 | Compendium | Persona ID 5; base level 11 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Pixie | 1347553286 | 0x50520806 | Compendium | Persona ID 6; base level 2 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Cerberus | 1347553287 | 0x50520807 | Compendium | Persona ID 7; base level 55 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Lilim | 1347553288 | 0x50520808 | Compendium | Persona ID 8; base level 32 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Eligor | 1347553289 | 0x50520809 | Compendium | Persona ID 9; base level 16 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Odin | 1347553290 | 0x5052080A | Compendium | Persona ID 10; base level 84 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Hua Po | 1347553291 | 0x5052080B | Compendium | Persona ID 11; base level 9 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Decarabia | 1347553292 | 0x5052080C | Compendium | Persona ID 12; base level 32 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Mara | 1347553293 | 0x5052080D | Compendium | Persona ID 13; base level 73 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Ose | 1347553294 | 0x5052080E | Compendium | Persona ID 14; base level 42 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Thor | 1347553295 | 0x5052080F | Compendium | Persona ID 15; base level 64 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Unicorn | 1347553296 | 0x50520810 | Compendium | Persona ID 16; base level 39 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Uriel | 1347553297 | 0x50520811 | Compendium | Persona ID 17; base level 81 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Sarasvati | 1347553298 | 0x50520812 | Compendium | Persona ID 18; base level 50 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Valkyrie | 1347553299 | 0x50520813 | Compendium | Persona ID 19; base level 44 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Yaksini | 1347553300 | 0x50520814 | Compendium | Persona ID 20; base level 20 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Ganesha | 1347553301 | 0x50520815 | Compendium | Persona ID 21; base level 53 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Anubis | 1347553302 | 0x50520816 | Compendium | Persona ID 22; base level 34 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Mot | 1347553303 | 0x50520817 | Compendium | Persona ID 23; base level 72 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Raphael | 1347553304 | 0x50520818 | Compendium | Persona ID 24; base level 78 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Scathach | 1347553305 | 0x50520819 | Compendium | Persona ID 25; base level 77 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - High Pixie | 1347553306 | 0x5052081A | Compendium | Persona ID 26; base level 16 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Barong | 1347553307 | 0x5052081B | Compendium | Persona ID 27; base level 52 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Girimehkala | 1347553308 | 0x5052081C | Compendium | Persona ID 28; base level 43 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - King Frost | 1347553309 | 0x5052081D | Compendium | Persona ID 29; base level 61 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Narcissus | 1347553310 | 0x5052081E | Compendium | Persona ID 30; base level 48 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Isis | 1347553311 | 0x5052081F | Compendium | Persona ID 31; base level 26 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Lamia | 1347553312 | 0x50520820 | Compendium | Persona ID 32; base level 26 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Legion | 1347553313 | 0x50520821 | Compendium | Persona ID 33; base level 38 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Rakshasa | 1347553314 | 0x50520822 | Compendium | Persona ID 34; base level 24 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Mokoi | 1347553315 | 0x50520823 | Compendium | Persona ID 35; base level 9 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Forneus | 1347553316 | 0x50520824 | Compendium | Persona ID 36; base level 63 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Setanta | 1347553317 | 0x50520825 | Compendium | Persona ID 37; base level 25 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Titania | 1347553318 | 0x50520826 | Compendium | Persona ID 38; base level 56 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Incubus | 1347553319 | 0x50520827 | Compendium | Persona ID 39; base level 5 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Oni | 1347553320 | 0x50520828 | Compendium | Persona ID 40; base level 20 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Lilith | 1347553321 | 0x50520829 | Compendium | Persona ID 41; base level 60 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Rangda | 1347553322 | 0x5052082A | Compendium | Persona ID 42; base level 48 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Makami | 1347553323 | 0x5052082B | Compendium | Persona ID 43; base level 15 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Parvati | 1347553324 | 0x5052082C | Compendium | Persona ID 44; base level 56 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Gabriel | 1347553325 | 0x5052082D | Compendium | Persona ID 45; base level 77 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Zaou-Gongen | 1347553326 | 0x5052082E | Compendium | Persona ID 46; base level 80 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Alice | 1347553327 | 0x5052082F | Compendium | Persona ID 47; base level 83 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Kali | 1347553328 | 0x50520830 | Compendium | Persona ID 48; base level 63 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Kurama Tengu | 1347553329 | 0x50520831 | Compendium | Persona ID 49; base level 31 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Oberon | 1347553330 | 0x50520832 | Compendium | Persona ID 50; base level 66 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Shiki-Ouji | 1347553331 | 0x50520833 | Compendium | Persona ID 51; base level 18 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Yamata-no-Orochi | 1347553332 | 0x50520834 | Compendium | Persona ID 52; base level 64 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Orobas | 1347553333 | 0x50520835 | Compendium | Persona ID 53; base level 17 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Hanuman | 1347553334 | 0x50520836 | Compendium | Persona ID 54; base level 64 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Archangel | 1347553335 | 0x50520837 | Compendium | Persona ID 55; base level 14 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Obariyon | 1347553336 | 0x50520838 | Compendium | Persona ID 56; base level 8 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Queen Mab | 1347553337 | 0x50520839 | Compendium | Persona ID 57; base level 43 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Sandalphon | 1347553338 | 0x5052083A | Compendium | Persona ID 58; base level 75 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Abaddon | 1347553339 | 0x5052083B | Compendium | Persona ID 59; base level 75 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Shiisaa | 1347553340 | 0x5052083C | Compendium | Persona ID 60; base level 15 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Sandman | 1347553341 | 0x5052083D | Compendium | Persona ID 61; base level 23 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Belial | 1347553342 | 0x5052083E | Compendium | Persona ID 62; base level 82 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Leanan Sidhe | 1347553343 | 0x5052083F | Compendium | Persona ID 63; base level 19 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Cybele | 1347553344 | 0x50520840 | Compendium | Persona ID 64; base level 83 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Chernobog | 1347553345 | 0x50520841 | Compendium | Persona ID 65; base level 62 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Flauros | 1347553346 | 0x50520842 | Compendium | Persona ID 66; base level 19 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Ippon-Datara | 1347553347 | 0x50520843 | Compendium | Persona ID 67; base level 13 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Orthrus | 1347553348 | 0x50520844 | Compendium | Persona ID 68; base level 21 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Succubus | 1347553349 | 0x50520845 | Compendium | Persona ID 69; base level 7 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Mothman | 1347553350 | 0x50520846 | Compendium | Persona ID 70; base level 33 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Dominion | 1347553352 | 0x50520848 | Compendium | Persona ID 72; base level 68 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Nekomata | 1347553353 | 0x50520849 | Compendium | Persona ID 73; base level 17 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Black Frost | 1347553354 | 0x5052084A | Compendium | Persona ID 74; base level 67 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Arahabaki | 1347553355 | 0x5052084B | Compendium | Persona ID 75; base level 35 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Angel | 1347553356 | 0x5052084C | Compendium | Persona ID 76; base level 9 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Skadi | 1347553357 | 0x5052084D | Compendium | Persona ID 77; base level 53 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Kikuri-Hime | 1347553358 | 0x5052084E | Compendium | Persona ID 78; base level 40 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Chi You | 1347553359 | 0x5052084F | Compendium | Persona ID 79; base level 88 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Power | 1347553360 | 0x50520850 | Compendium | Persona ID 80; base level 41 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Inugami | 1347553361 | 0x50520851 | Compendium | Persona ID 81; base level 14 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Nebiros | 1347553362 | 0x50520852 | Compendium | Persona ID 82; base level 74 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Slime | 1347553364 | 0x50520854 | Compendium | Persona ID 84; base level 10 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Anzu | 1347553365 | 0x50520855 | Compendium | Persona ID 85; base level 25 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Yatagarasu | 1347553366 | 0x50520856 | Compendium | Persona ID 86; base level 57 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Yoshitsune | 1347553367 | 0x50520857 | Compendium | Persona ID 87; base level 87 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Take-Minakata | 1347553368 | 0x50520858 | Compendium | Persona ID 88; base level 26 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Ame-no-Uzume | 1347553369 | 0x50520859 | Compendium | Persona ID 89; base level 13 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Kushinada | 1347553370 | 0x5052085A | Compendium | Persona ID 90; base level 42 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Kumbhanda | 1347553371 | 0x5052085B | Compendium | Persona ID 91; base level 42 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Ongyo-Ki | 1347553372 | 0x5052085C | Compendium | Persona ID 92; base level 89 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Kin-Ki | 1347553373 | 0x5052085D | Compendium | Persona ID 93; base level 25 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Sui-Ki | 1347553374 | 0x5052085E | Compendium | Persona ID 94; base level 24 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Fuu-Ki | 1347553375 | 0x5052085F | Compendium | Persona ID 95; base level 23 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Jatayu | 1347553376 | 0x50520860 | Compendium | Persona ID 96; base level 51 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Kaiwan | 1347553377 | 0x50520861 | Compendium | Persona ID 97; base level 36 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Kelpie | 1347553378 | 0x50520862 | Compendium | Persona ID 98; base level 6 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Thoth | 1347553379 | 0x50520863 | Compendium | Persona ID 99; base level 36 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Dionysus | 1347553380 | 0x50520864 | Compendium | Persona ID 100; base level 71 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Apsaras | 1347553381 | 0x50520865 | Compendium | Persona ID 101; base level 11 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Andras | 1347553382 | 0x50520866 | Compendium | Persona ID 102; base level 27 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Koropokguru | 1347553384 | 0x50520868 | Compendium | Persona ID 104; base level 9 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Koppa Tengu | 1347553385 | 0x50520869 | Compendium | Persona ID 105; base level 11 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Regent | 1347553386 | 0x5052086A | Compendium | Persona ID 106; base level 10 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Queen's Necklace | 1347553387 | 0x5052086B | Compendium | Persona ID 107; base level 15 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Stone of Scone | 1347553388 | 0x5052086C | Compendium | Persona ID 108; base level 20 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Koh-i-Noor | 1347553389 | 0x5052086D | Compendium | Persona ID 109; base level 25 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Orlov | 1347553390 | 0x5052086E | Compendium | Persona ID 110; base level 30 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Emperor's Amulet | 1347553391 | 0x5052086F | Compendium | Persona ID 111; base level 35 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Hope Diamond | 1347553392 | 0x50520870 | Compendium | Persona ID 112; base level 40 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Crystal Skull | 1347553393 | 0x50520871 | Compendium | Persona ID 113; base level 50 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Orichalcum | 1347553394 | 0x50520872 | Compendium | Persona ID 114; base level 60 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Mandrake | 1347553401 | 0x50520879 | Compendium | Persona ID 121; base level 3 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Baal | 1347553402 | 0x5052087A | Compendium | Persona ID 122; base level 82 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Dakini | 1347553403 | 0x5052087B | Compendium | Persona ID 123; base level 50 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Silky | 1347553404 | 0x5052087C | Compendium | Persona ID 124; base level 6 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Bugs | 1347553405 | 0x5052087D | Compendium | Persona ID 125; base level 49 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Black Ooze | 1347553406 | 0x5052087E | Compendium | Persona ID 126; base level 18 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Bicorn | 1347553407 | 0x5052087F | Compendium | Persona ID 127; base level 4 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Mithras | 1347553408 | 0x50520880 | Compendium | Persona ID 128; base level 39 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Sudama | 1347553409 | 0x50520881 | Compendium | Persona ID 129; base level 17 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Kodama | 1347553410 | 0x50520882 | Compendium | Persona ID 130; base level 11 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Agathion | 1347553411 | 0x50520883 | Compendium | Persona ID 131; base level 3 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Onmoraki | 1347553412 | 0x50520884 | Compendium | Persona ID 132; base level 12 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Nue | 1347553413 | 0x50520885 | Compendium | Persona ID 133; base level 20 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Pisaca | 1347553414 | 0x50520886 | Compendium | Persona ID 134; base level 28 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Melchizedek | 1347553415 | 0x50520887 | Compendium | Persona ID 135; base level 58 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Baphomet | 1347553416 | 0x50520888 | Compendium | Persona ID 136; base level 58 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Raja Naga | 1347553417 | 0x50520889 | Compendium | Persona ID 137; base level 55 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Naga | 1347553418 | 0x5052088A | Compendium | Persona ID 138; base level 24 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Garuda | 1347553419 | 0x5052088B | Compendium | Persona ID 139; base level 52 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Moloch | 1347553420 | 0x5052088C | Compendium | Persona ID 140; base level 60 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Norn | 1347553421 | 0x5052088D | Compendium | Persona ID 141; base level 52 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Belphegor | 1347553422 | 0x5052088E | Compendium | Persona ID 142; base level 37 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Berith | 1347553423 | 0x5052088F | Compendium | Persona ID 143; base level 9 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Choronzon | 1347553424 | 0x50520890 | Compendium | Persona ID 144; base level 28 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Nigi Mitama | 1347553431 | 0x50520897 | Compendium | Persona ID 151; base level 22 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Kushi Mitama | 1347553432 | 0x50520898 | Compendium | Persona ID 152; base level 12 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Ara Mitama | 1347553433 | 0x50520899 | Compendium | Persona ID 153; base level 30 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Saki Mitama | 1347553434 | 0x5052089A | Compendium | Persona ID 154; base level 6 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Shiva | 1347553436 | 0x5052089C | Compendium | Persona ID 156; base level 82 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Michael | 1347553437 | 0x5052089D | Compendium | Persona ID 157; base level 87 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Asura | 1347553438 | 0x5052089E | Compendium | Persona ID 158; base level 76 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Mada | 1347553439 | 0x5052089F | Compendium | Persona ID 159; base level 90 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Mother Harlot | 1347553440 | 0x505208A0 | Compendium | Persona ID 160; base level 85 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Clotho | 1347553441 | 0x505208A1 | Compendium | Persona ID 161; base level 27 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Lachesis | 1347553442 | 0x505208A2 | Compendium | Persona ID 162; base level 35 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Atropos | 1347553443 | 0x505208A3 | Compendium | Persona ID 163; base level 39 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Ardha | 1347553444 | 0x505208A4 | Compendium | Persona ID 164; base level 84 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Vishnu | 1347553446 | 0x505208A6 | Compendium | Persona ID 166; base level 83 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Hariti | 1347553447 | 0x505208A7 | Compendium | Persona ID 167; base level 40 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Yurlungur | 1347553448 | 0x505208A8 | Compendium | Persona ID 168; base level 43 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Hecatoncheires | 1347553449 | 0x505208A9 | Compendium | Persona ID 169; base level 42 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Satanael | 1347553450 | 0x505208AA | Compendium | Persona ID 170; base level 95 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Orpheus | 1347553461 | 0x505208B5 | Compendium | Persona ID 181; base level 26 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Thanatos | 1347553462 | 0x505208B6 | Compendium | Persona ID 182; base level 65 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Izanagi | 1347553463 | 0x505208B7 | Compendium | Persona ID 183; base level 20 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Magatsu-Izanagi | 1347553464 | 0x505208B8 | Compendium | Persona ID 184; base level 44 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Kaguya | 1347553465 | 0x505208B9 | Compendium | Persona ID 185; base level 16 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Ariadne | 1347553466 | 0x505208BA | Compendium | Persona ID 186; base level 30 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Asterius | 1347553467 | 0x505208BB | Compendium | Persona ID 187; base level 56 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Tsukiyomi | 1347553468 | 0x505208BC | Compendium | Persona ID 188; base level 50 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Messiah | 1347553469 | 0x505208BD | Compendium | Persona ID 189; base level 81 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Messiah Picaro | 1347553470 | 0x505208BE | Compendium | Persona ID 190; base level 90 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Orpheus Picaro | 1347553471 | 0x505208BF | Compendium | Persona ID 191; base level 29 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Thanatos Picaro | 1347553472 | 0x505208C0 | Compendium | Persona ID 192; base level 69 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Izanagi Picaro | 1347553473 | 0x505208C1 | Compendium | Persona ID 193; base level 23 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - M. Izanagi Picaro | 1347553474 | 0x505208C2 | Compendium | Persona ID 194; base level 48 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Kaguya Picaro | 1347553475 | 0x505208C3 | Compendium | Persona ID 195; base level 25 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Ariadne Picaro | 1347553476 | 0x505208C4 | Compendium | Persona ID 196; base level 42 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Asterius Picaro | 1347553477 | 0x505208C5 | Compendium | Persona ID 197; base level 62 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Tsukiyomi Picaro | 1347553478 | 0x505208C6 | Compendium | Persona ID 198; base level 55 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Arsene | 1347553481 | 0x505208C9 | Compendium | Persona ID 201; base level 1 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Satan | 1347553532 | 0x505208FC | Compendium | Persona ID 252; base level 92 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Lucifer | 1347553533 | 0x505208FD | Compendium | Persona ID 253; base level 93 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Kohryu | 1347553534 | 0x505208FE | Compendium | Persona ID 254; base level 76 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Okuninushi | 1347553535 | 0x505208FF | Compendium | Persona ID 255; base level 54 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Futsunushi | 1347553539 | 0x50520903 | Compendium | Persona ID 259; base level 86 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Seth | 1347553541 | 0x50520905 | Compendium | Persona ID 261; base level 51 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Ishtar | 1347553542 | 0x50520906 | Compendium | Persona ID 262; base level 85 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Lakshmi | 1347553546 | 0x5052090A | Compendium | Persona ID 266; base level 69 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Fortuna | 1347553552 | 0x50520910 | Compendium | Persona ID 272; base level 46 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Suzaku | 1347553553 | 0x50520911 | Compendium | Persona ID 273; base level 16 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Seiryu | 1347553554 | 0x50520912 | Compendium | Persona ID 274; base level 62 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Genbu | 1347553555 | 0x50520913 | Compendium | Persona ID 275; base level 7 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Byakko | 1347553556 | 0x50520914 | Compendium | Persona ID 276; base level 45 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Bishamonten | 1347553557 | 0x50520915 | Compendium | Persona ID 277; base level 67 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Koumokuten | 1347553558 | 0x50520916 | Compendium | Persona ID 278; base level 49 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Jikokuten | 1347553559 | 0x50520917 | Compendium | Persona ID 279; base level 22 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Zouchouten | 1347553560 | 0x50520918 | Compendium | Persona ID 280; base level 31 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Hell Biker | 1347553561 | 0x50520919 | Compendium | Persona ID 281; base level 37 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Daisoujou | 1347553562 | 0x5052091A | Compendium | Persona ID 282; base level 40 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Trumpeter | 1347553563 | 0x5052091B | Compendium | Persona ID 283; base level 59 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - White Rider | 1347553564 | 0x5052091C | Compendium | Persona ID 284; base level 38 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Matador | 1347553565 | 0x5052091D | Compendium | Persona ID 285; base level 17 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Pale Rider | 1347553566 | 0x5052091E | Compendium | Persona ID 286; base level 54 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Horus | 1347553567 | 0x5052091F | Compendium | Persona ID 287; base level 47 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Attis | 1347553569 | 0x50520921 | Compendium | Persona ID 289; base level 82 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Sraosha | 1347553572 | 0x50520924 | Compendium | Persona ID 292; base level 80 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Mitra | 1347553575 | 0x50520927 | Compendium | Persona ID 295; base level 33 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Phoenix | 1347553576 | 0x50520928 | Compendium | Persona ID 296; base level 21 | compendium_sanity or goal_compendium; Palace-access tier 2 | No |
+| Compendium - Principality | 1347553577 | 0x50520929 | Compendium | Persona ID 297; base level 29 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Neko Shogun | 1347553578 | 0x5052092A | Compendium | Persona ID 298; base level 30 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Vasuki | 1347553579 | 0x5052092B | Compendium | Persona ID 299; base level 68 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Ananta | 1347553580 | 0x5052092C | Compendium | Persona ID 300; base level 44 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Quetzalcoatl | 1347553583 | 0x5052092F | Compendium | Persona ID 303; base level 66 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Red Rider | 1347553584 | 0x50520930 | Compendium | Persona ID 304; base level 41 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Black Rider | 1347553585 | 0x50520931 | Compendium | Persona ID 305; base level 59 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Pazuzu | 1347553588 | 0x50520934 | Compendium | Persona ID 308; base level 45 | compendium_sanity or goal_compendium; Palace-access tier 4 | No |
+| Compendium - Maria | 1347553610 | 0x5052094A | Compendium | Persona ID 330; base level 93 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Vohu Manah | 1347553611 | 0x5052094B | Compendium | Persona ID 331; base level 80 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Mishaguji | 1347553613 | 0x5052094D | Compendium | Persona ID 333; base level 52 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Izanagi no Okami | 1347553640 | 0x50520968 | Compendium | Persona ID 360; base level 80 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Athena | 1347553642 | 0x5052096A | Compendium | Persona ID 362; base level 46 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Raoul | 1347553643 | 0x5052096B | Compendium | Persona ID 363; base level 76 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Orpheus (F) | 1347553645 | 0x5052096D | Compendium | Persona ID 365; base level 11 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Izanagi no Okami Picaro | 1347553646 | 0x5052096E | Compendium | Persona ID 366; base level 89 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Athena Picaro | 1347553648 | 0x50520970 | Compendium | Persona ID 368; base level 50 | compendium_sanity or goal_compendium; Palace-access tier 5 | No |
+| Compendium - Orpheus (F) Picaro | 1347553651 | 0x50520973 | Compendium | Persona ID 371; base level 13 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Macabre | 1347553704 | 0x505209A8 | Compendium | Persona ID 424; base level 73 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Alilat | 1347553705 | 0x505209A9 | Compendium | Persona ID 425; base level 81 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Thunderbird | 1347553706 | 0x505209AA | Compendium | Persona ID 426; base level 34 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Fafnir | 1347553707 | 0x505209AB | Compendium | Persona ID 427; base level 86 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Byakhee | 1347553708 | 0x505209AC | Compendium | Persona ID 428; base level 70 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Hastur | 1347553709 | 0x505209AD | Compendium | Persona ID 429; base level 84 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Tam Lin | 1347553710 | 0x505209AE | Compendium | Persona ID 430; base level 27 | compendium_sanity or goal_compendium; Palace-access tier 3 | No |
+| Compendium - Throne | 1347553711 | 0x505209AF | Compendium | Persona ID 431; base level 72 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Surt | 1347553712 | 0x505209B0 | Compendium | Persona ID 432; base level 83 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
+| Compendium - Loa | 1347553713 | 0x505209B1 | Compendium | Persona ID 433; base level 70 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Chimera | 1347553714 | 0x505209B2 | Compendium | Persona ID 434; base level 74 | compendium_sanity or goal_compendium; Palace-access tier 7 | No |
+| Compendium - Atavaka | 1347553715 | 0x505209B3 | Compendium | Persona ID 435; base level 65 | compendium_sanity or goal_compendium; Palace-access tier 6 | No |
+| Compendium - Caith Sith | 1347553716 | 0x505209B4 | Compendium | Persona ID 436; base level 5 | compendium_sanity or goal_compendium; Palace-access tier 1 | No |
+| Compendium - Siegfried | 1347553717 | 0x505209B5 | Compendium | Persona ID 437; base level 84 | compendium_sanity or goal_compendium; Palace-access tier 8 | No |
 | Shop Item #1 | 1347554304 | 0x50520C00 | Numbered AP shop | Hub shop purchase #1 | shop_item_count >= 1 | Yes |
 | Shop Item #2 | 1347554305 | 0x50520C01 | Numbered AP shop | Hub shop purchase #2 | shop_item_count >= 2 | Yes |
 | Shop Item #3 | 1347554306 | 0x50520C02 | Numbered AP shop | Hub shop purchase #3 | shop_item_count >= 3 | Yes |

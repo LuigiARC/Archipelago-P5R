@@ -13,6 +13,7 @@ from .locations import CATALOG as CHEST_DOCUMENT
 from .palaces import CATALOG as PALACE_DOCUMENT
 from .confidant_abilities import CATALOG as CONFIDANT_DOCUMENT
 from .personas import CATALOG as PERSONA_DOCUMENT
+from .persona_levels import persona_level_tier
 from .items import CATALOG as TV_BUNDLE_DOCUMENT
 from .reward_placement import order_inventory_rewards
 
@@ -409,6 +410,14 @@ class Persona5RoyalWorld(World):
         return held >= tier
 
     def set_rules(self) -> None:
+        if self.compendium_sanity_enabled():
+            for persona in PERSONAS:
+                tier = persona_level_tier(persona["persona_id"])
+                set_rule(
+                    self.get_location(persona["name"]),
+                    lambda state, tier=tier: self._palace_progress_met(state, tier),
+                )
+
         for palace in PALACES:
             # Exploring the Palace's chests only needs Palace access.
             for chest in CHESTS_BY_PALACE_BASE_NAME.get(PALACE_BASE_NAMES[palace["key"]], []):
