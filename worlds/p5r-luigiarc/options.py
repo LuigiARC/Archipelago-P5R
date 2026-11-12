@@ -160,71 +160,106 @@ class StartingInventoryFromPool(_InventoryListInput, StartInventoryPool):
     default = ["Progressive Palace Access", "Progressive Mementos Access"]
 
 
-class RandomizeMeleeWeapons(Toggle):
-    """Allow melee weapons in random rewards, including bundles containing them.
+class CategoryItemCount(Range):
+    """Category reward count. Set to 0 to disable.
+    Exact counts sample with replacement and exclude bundles containing this category.
+    """
+    range_start = 0
+    range_end = 500
+    default = 0
+
+    def __init__(self, value):
+        # Keep old automatic/true configurations readable without exposing them in templates.
+        if value == -1:
+            self.value = value
+        else:
+            super().__init__(value)
+
+    @classmethod
+    def from_any(cls, data):
+        if isinstance(data, bool):
+            return cls(-1 if data else 0)
+        return super().from_any(data)
+
+    @classmethod
+    def from_text(cls, text):
+        if text.lower() in {"automatic", "true", "on", "yes"}:
+            return cls(-1)
+        if text.lower() in {"false", "off", "no"}:
+            return cls(0)
+        return super().from_text(text)
+
+
+class RandomizeMeleeWeapons(CategoryItemCount):
+    """Individual melee weapon rewards: set to 0 to disable (range 0–500).
     195 individual items. Example: Rebel Knife.
-    Random rewards also include 40 TV bundles. Example: Spring Awake Set.
-    Starting inventory is independent of these category toggles.
+    Duplicates allowed; counts must fit available slots. Explicit counts exclude bundles.
     """
-    display_name = "Randomize Melee Weapons"
-    default = True
+    display_name = "Melee Weapon Pool Count"
+    default = 20
 
 
-class RandomizeGuns(Toggle):
-    """Allow guns/ranged weapons in random rewards and bundles.
+class RandomizeGuns(CategoryItemCount):
+    """Individual gun rewards: set to 0 to disable (range 0–500).
     106 individual items. Example: Tkachev.
+    Duplicates allowed; counts must fit available slots. Explicit counts exclude bundles.
     """
-    display_name = "Randomize Guns"
-    default = True
+    display_name = "Gun Pool Count"
+    default = 15
 
 
-class RandomizeArmor(Toggle):
-    """Allow armor pieces in random rewards and bundles.
+class RandomizeArmor(CategoryItemCount):
+    """Individual armor rewards: set to 0 to disable (range 0–500).
     200 individual items. Example: Dark Undershirt.
+    Duplicates allowed; counts must fit available slots. Explicit counts exclude bundles.
     """
-    display_name = "Randomize Armor"
-    default = True
+    display_name = "Armor Pool Count"
+    default = 25
 
 
-class RandomizeAccessories(Toggle):
-    """Allow accessories in random rewards and bundles.
+class RandomizeAccessories(CategoryItemCount):
+    """Individual accessory rewards: set to 0 to disable (range 0–500).
     439 individual items. Example: Hip Glasses.
+    Duplicates allowed; counts must fit available slots. Explicit counts exclude bundles.
     """
-    display_name = "Randomize Accessories"
-    default = True
+    display_name = "Accessory Pool Count"
+    default = 25
 
 
-class RandomizeConsumables(Toggle):
-    """Allow consumables/infiltration tools in random rewards and bundles.
+class RandomizeConsumables(CategoryItemCount):
+    """Individual consumable rewards: set to 0 to disable (range 0–500).
     551 individual items. Example: Soma.
+    Duplicates allowed; counts must fit available slots. Explicit counts exclude bundles.
     """
-    display_name = "Randomize Consumables"
-    default = True
+    display_name = "Consumable Pool Count"
+    default = 48
 
 
-class RandomizeMaterials(Toggle):
-    """Allow materials/treasures in random rewards and bundles.
-    168 individual items. Example: Gold Coin. Disabled by default.
+class RandomizeMaterials(CategoryItemCount):
+    """Individual material rewards: set to 0 to disable (range 0–500).
+    168 individual items. Example: Gold Coin.
+    Duplicates allowed; counts must fit available slots. Explicit counts exclude bundles.
     """
-    display_name = "Randomize Materials"
-    default = False
+    display_name = "Material Pool Count"
+    default = 0
 
 
-class RandomizeSkillCards(Toggle):
-    """Allow skill cards in random rewards and bundles.
+class RandomizeSkillCards(CategoryItemCount):
+    """Individual skill card rewards: set to 0 to disable (range 0–500).
     459 individual items. Example: Agi.
-    If all categories are disabled, remaining inventory reward slots contain empty filler.
+    Duplicates allowed; counts must fit available slots. Explicit counts exclude bundles.
     """
-    display_name = "Randomize Skill Cards"
-    default = True
+    display_name = "Skill Card Pool Count"
+    default = 30
 
 
-class RandomizeOutfits(Toggle):
-    """Allow cosmetic outfits in random rewards and bundles.
-    273 individual items. Example: Shujin Uniform. Disabled by default.
+class RandomizeOutfits(CategoryItemCount):
+    """Individual outfit rewards: set to 0 to disable (range 0–500).
+    273 individual items. Example: Shujin Uniform.
+    Duplicates allowed; counts must fit available slots. Explicit counts exclude bundles.
     """
-    display_name = "Randomize Outfits"
-    default = False
+    display_name = "Outfit Pool Count"
+    default = 0
 
 
 ITEM_CATEGORY_OPTIONS = {

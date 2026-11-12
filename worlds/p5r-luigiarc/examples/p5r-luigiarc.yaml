@@ -3,10 +3,9 @@
 #    others to play how they want as well.
 #
 # Q. How do I use it?
-# A. This file sets each option to one concrete value rather than the weighted-random distribution the
-#    game's own auto-generated templates use (e.g. `full: 50 / minimal: 0`) -- a plain value like
-#    `accessibility: full` below is shorthand for "always this value." See
-#    https://archipelago.gg/tutorial/Archipelago/setup/en if you want weighted randomization instead.
+# A. Set relative weights for each choice; 0 disables a choice. Edit numeric keys to change values.
+#    random/random-low/random-high roll within the range; random-range-X-Y limits the range.
+#    Goal and inventory lists stay unweighted. See https://archipelago.gg/tutorial/Archipelago/setup/en
 
 # Your name in-game, limited to 16 characters.
 name: Joker
@@ -28,13 +27,20 @@ Persona 5 Royal (luigiarc):
   #
   # A lower setting means more getting stuck. A higher setting means less getting stuck.
   # Minimum value is 0, maximum value is 99.
-  progression_balancing: 50
+  progression_balancing:
+    50: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-99: 0
 
   # Set rules for reachability of your items/locations.
   #
   # full: ensure everything can be reached and acquired.
   # minimal: ensure what is needed to reach your goal can be acquired.
-  accessibility: full
+  accessibility:
+    full: 50
+    minimal: 0
 
   # Which Palace clears are required to goal. Multiple are allowed and if multiple are specified, all must be cleared to goal
   # Clear is sent after the respective boss is defeated.
@@ -44,60 +50,158 @@ Persona 5 Royal (luigiarc):
     - shido
 
   # Require registering every tracked Persona. This can also be combined with Palace goals.
-  goal_compendium: false
+  goal_compendium:
+    "false": 50
+    "true": 0
 
   # Add 232 Persona registration checks.
-  compendium_sanity: false
+  compendium_sanity:
+    "false": 50
+    "true": 0
 
   # Range 0–500. Shop checks unlock across the eight Palace-access tiers.
-  shop_item_count: 20
-  shop_minimum_price: 1000
-  shop_maximum_price: 10000
+  shop_item_count:
+    20: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-500: 0
+  shop_minimum_price:
+    1000: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-1-9999999: 0
+  shop_maximum_price:
+    10000: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-1-9999999: 0
 
   # Number of chest checks in EACH Mementos Path.
   # Minimum value is 1, maximum value is 20
-  mementos_chests_per_path: 5
+  mementos_chests_per_path:
+    5: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-1-20: 0
 
   # Whether Palace access/calling-card permissions come from two shared progressive items (on,
   # default) or from 8 distinct per-Palace items instead (off). Progressive is recommended.
-  progressive_palace_access: true
+  progressive_palace_access:
+    "false": 0
+    "true": 50
 
   # Battle EXP multiplier game-wide.
-  xp_multiplier: 1
+  xp_multiplier:
+    1: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-1-10: 0
 
   # Battle money multiplier game-wide, including instakill.
-  money_multiplier: 1
+  money_multiplier:
+    1: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-1-10: 0
 
   # Battle item quantity multiplier, including instakill.
-  item_multiplier: 1
+  item_multiplier:
+    1: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-1-10: 0
 
   # Send a DeathLink when the party is wiped.
-  death_link: true
+  death_link:
+    "false": 0
+    "true": 50
 
   # Percentage of each active party member's maximum HP removed by a received DeathLink.
   # Damage cannot reduce a living member below 1 HP
-  death_link_damage_percent: 30
+  death_link_damage_percent:
+    30: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-100: 0
 
   ###########################
   # Item & Location Options #
   ###########################
 
-  # 195 items. Example: Rebel Knife.
-  randomize_melee_weapons: true
-  # 106 items. Example: Tkachev.
-  randomize_guns: true
-  # 200 items. Example: Dark Undershirt.
-  randomize_armor: true
-  # 439 items. Example: Hip Glasses.
-  randomize_accessories: true
-  # 551 items. Example: Soma.
-  randomize_consumables: true
-  # 459 items. Example: Agi.
-  randomize_skill_cards: true
-  # 168 items. Example: Gold Coin.
-  randomize_materials: false
-  # 273 items. Example: Shujin Uniform.
-  randomize_outfits: false
+  # Counts allow duplicates and must fit available reward slots.
+  # Defaults fill 163 inventory slots. (other 68 include progression items, party recruits, party-level rewards to add up to default 231 total locations)
+
+  # 195 items. Example: Rebel Knife. Set to 0 to disable.
+  randomize_melee_weapons:
+    20: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-20: 0
+
+  # 106 items. Example: Tkachev. Set to 0 to disable.
+  randomize_guns:
+    15: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-20: 0
+
+  # 200 items. Example: Dark Undershirt. Set to 0 to disable.
+  randomize_armor:
+    25: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-20: 0
+
+  # 439 items. Example: Hip Glasses. Set to 0 to disable.
+  randomize_accessories:
+    25: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-20: 0
+
+  # 551 items. Example: Soma. Set to 0 to disable.
+  randomize_consumables:
+    48: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-20: 0
+
+  # 459 items. Example: Agi. Set to 0 to disable.
+  randomize_skill_cards:
+    30: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-20: 0
+
+  # 168 items. Example: Gold Coin. Set to 0 to disable.
+  randomize_materials:
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-20: 0
+
+  # 273 items. Example: Shujin Uniform. Set to 0 to disable.
+  randomize_outfits:
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+    random-range-0-20: 0
 
   # Forces these items to be in their native world.
   local_items: []

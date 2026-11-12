@@ -326,17 +326,40 @@ class Persona5RoyalWorld(World):
             - MEMENTOS_PROGRESS_TIERS - len(PARTY_RECRUIT_ITEMS)
             - sum(PARTY_LEVEL_ITEM_COUNTS.values())
         )
-        rewards = self.random.choices(self.reward_item_names(), k=reward_count)
-        # Useful items cannot fill excluded checks. Supply real filler for at
-        # least this world's active exclusions, even with equipment-only settings.
+        requested = {
+            category: getattr(self.options, option).value
+            for category, option in ITEM_CATEGORY_OPTIONS.items()
+            if getattr(self.options, option).value > 0
+        }
+        requested_total = sum(requested.values())
+        if requested_total > reward_count:
+            raise OptionError(
+                f"{self.player_name}: category item counts request {requested_total} entries, "
+                f"but only {reward_count} reward slots are available after required items. "
+                "Lower category counts or add checks (shops, Mementos chests, Compendium Sanity)."
+            )
+        rewards = []
+        for category, count in requested.items():
+            candidates = tuple(item["name"] for item in TV_BUNDLE_DOCUMENT["native_items"]
+                               if item["category"] == category and item["name"] in RANDOMIZED_NATIVE_ITEMS)
+            rewards.extend(self.random.choices(candidates, k=count))
+        exact_count = len(rewards)
+        rewards.extend(self.random.choices(self.reward_item_names(automatic_only=True),
+                                          k=reward_count - exact_count))
+        # Only automatic slots may be replaced with filler: explicit quotas stay intact.
         excluded_count = sum(location.name in self.options.exclude_locations.value
                              for location in self.multiworld.get_locations(self.player))
         missing_filler = max(0, excluded_count - sum(
             self.create_item(name).classification == ItemClassification.filler for name in rewards))
-        for index in range(len(rewards)):
+        for index in range(exact_count, len(rewards)):
             if missing_filler and self.create_item(rewards[index]).classification != ItemClassification.filler:
                 rewards[index] = self.get_filler_item_name()
                 missing_filler -= 1
+        if missing_filler:
+            raise OptionError(
+                f"{self.player_name}: exact category counts leave insufficient filler for "
+                f"{excluded_count} excluded checks. Lower the counts or remove exclusions."
+            )
         self.multiworld.itempool.extend(self.create_item(name) for name in rewards)
 
     def palace_item_count(self) -> int:
@@ -368,13 +391,23 @@ class Persona5RoyalWorld(World):
         return self.random.choice(self.filler_item_names())
 
     def filler_item_names(self) -> tuple[str, ...]:
-        candidates = tuple(name for name in self.reward_item_names()
-                           if self.create_item(name).classification == ItemClassification.filler)
+        candidates = tuple(name for name in self.reward_item_names(automatic_only=True)
+                           if name != TEST_FILLER_NAME
+                           and self.create_item(name).classification == ItemClassification.filler)
+        if not candidates:
+            # Common AP generation replaces start_inventory_from_pool items after quotas
+            # are built. Prefer real consumable filler, then other enabled categories.
+            enabled = tuple(name for name in self.reward_item_names()
+                            if name in NATIVE_ITEMS
+                            and self.create_item(name).classification == ItemClassification.filler)
+            candidates = tuple(name for name in enabled
+                               if INVENTORY_REWARDS[name]["category"] == "consumable") or enabled
         return candidates or (TEST_FILLER_NAME,)
 
-    def reward_item_names(self) -> tuple[str, ...]:
+    def reward_item_names(self, automatic_only: bool = False) -> tuple[str, ...]:
         disabled = {category for category, option in ITEM_CATEGORY_OPTIONS.items()
-                    if not getattr(self.options, option).value}
+                    if getattr(self.options, option).value == 0
+                    or (automatic_only and getattr(self.options, option).value != -1)}
         candidates = tuple(
             item["name"]
             for item in (*TV_BUNDLES, *TV_BUNDLE_DOCUMENT["native_items"])
