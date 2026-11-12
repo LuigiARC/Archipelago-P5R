@@ -494,7 +494,7 @@ class Persona5RoyalWorld(World):
         goal_keys = self.goal_palace_keys()
         total_locations = self.total_location_count()
         return {
-            "client_version": 12,
+            "client_version": 13,
             "randomized_item_categories": [category for category, option in ITEM_CATEGORY_OPTIONS.items()
                                            if getattr(self.options, option).value],
             "shop_item_count": self.options.shop_item_count.value,
@@ -534,6 +534,9 @@ class Persona5RoyalWorld(World):
             "mementos_chests_per_path_max": MEMENTOS_CHESTS_PER_PATH_MAX,
             "mementos_generic_chest_base_id": MEMENTOS_GENERIC_CHEST_BASE_ID,
             "progressive_palace_access": bool(self.options.progressive_palace_access.value),
+            "xp_multiplier": self.options.xp_multiplier.value,
+            "money_multiplier": self.options.money_multiplier.value,
+            "item_multiplier": self.options.item_multiplier.value,
             "death_link": bool(self.options.death_link.value),
             "death_link_damage_percent": self.options.death_link_damage_percent.value,
             "party_recruit_item_ids": list(PARTY_RECRUIT_ITEMS.values()),

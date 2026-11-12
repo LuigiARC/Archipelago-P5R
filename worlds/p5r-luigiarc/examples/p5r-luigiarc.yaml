@@ -62,6 +62,15 @@ Persona 5 Royal (luigiarc):
   # default) or from 8 distinct per-Palace items instead (off). Progressive is recommended.
   progressive_palace_access: true
 
+  # Battle EXP multiplier game-wide.
+  xp_multiplier: 1
+
+  # Battle money multiplier game-wide, including instakill.
+  money_multiplier: 1
+
+  # Battle item quantity multiplier, including instakill.
+  item_multiplier: 1
+
   # Send a DeathLink when the party is wiped.
   death_link: true
 

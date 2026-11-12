@@ -87,6 +87,30 @@ class ProgressivePalaceAccess(Toggle):
     default = True
 
 
+class XpMultiplier(Range):
+    """Multiply battle EXP throughout the game."""
+    display_name = "XP Multiplier"
+    range_start = 1
+    range_end = 10
+    default = 1
+
+
+class MoneyMultiplier(Range):
+    """Multiply battle money throughout the game."""
+    display_name = "Money Multiplier"
+    range_start = 1
+    range_end = 10
+    default = 1
+
+
+class ItemMultiplier(Range):
+    """Multiply quantities of items in battle results."""
+    display_name = "Item Multiplier"
+    range_start = 1
+    range_end = 10
+    default = 1
+
+
 class DeathLinkDamagePercent(Range):
     """Percentage of each active party member's maximum HP removed when receiving a
     DeathLink. Damage is nonlethal (survivors stop at 1 HP), and 0 makes DeathLink
@@ -234,6 +258,9 @@ class Persona5RoyalOptions(PerGameCommonOptions):
     compendium_sanity: CompendiumSanity
     mementos_chests_per_path: MementosChestsPerPath
     progressive_palace_access: ProgressivePalaceAccess
+    xp_multiplier: XpMultiplier
+    money_multiplier: MoneyMultiplier
+    item_multiplier: ItemMultiplier
     death_link: DeathLink
     death_link_damage_percent: DeathLinkDamagePercent
     start_inventory_from_pool: StartingInventoryFromPool
